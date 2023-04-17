@@ -1,0 +1,47 @@
+        body {
+            font-family: Helvetica;
+            color:white;
+            background-image: url("stars.webp");
+            background-size:auto;
+        }
+        h1,q {
+            background-color: orangered;
+            color:black;
+            font-size: 30px;
+        }
+        .profile {
+            width: 50%;
+            border: 5px orangered solid;
+            background-image: url("Flash Back.jpg");
+            margin-bottom: 5px;
+        }
+        #banner {
+            border: 5px orangered solid;
+            margin-bottom: 5px;
+            font-family:"Impact";
+            background-image: url("Flash Banner.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        footer {
+            border: 5px orangered solid;
+            background-image: url("Flash Back.jpg");
+            padding: 5px;
+        }
+        #navigationmenu{
+                width:8%;
+                height: 95.2%;
+                position:fixed;
+                right: 8px;
+                top: 8px;
+                border:5px solid orangered;
+                padding:5px;
+                background-image: url("Flash Back.jpg");
+        }
+        a {
+            color:white;
+        }
+        a:visited {
+            color: grey;
+        }
+     
