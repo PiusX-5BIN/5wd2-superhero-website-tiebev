@@ -1,1 +1,42 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(20, 5%) ;
+    grid-template-columns: repeat(8, 12.5%)  ;
+}
+nav {
+    border: red 2px solid;
+    grid-area: 1/7/3/9;
+    position: relative;
+}
+header {
+    border: red 2px solid;
+    grid-area: 1/1/2/7;
+} 
  
+footer {
+    border: red 2px solid;
+    grid-area: 20/6/20/9
+}
+
+main {
+    border: red 2px solid;
+    grid-area: 2/1/20/7;
+}
+#comics {
+    border: red 2px solid;
+    grid-row: 16/19;
+    grid-column: 1/-4;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 10px;
+}
+
+.grid-item-1 {
+    grid-column: 2;
+}
+
+.efe {
+    grid-area: 3/3/3/3;
+}
