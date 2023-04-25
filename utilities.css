@@ -2,3 +2,12 @@ body {
     color:white;
     background-image: url(images/stars.webp);
 }
+nav {
+    border: #750000 5px ridge;
+    padding:10px;
+    background-image: url("images/Flash Back.jpg");
+}
+
+nav>ul {
+    list-style: none;
+}

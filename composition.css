@@ -1,12 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     display: grid;
-    grid-template-rows: repeat(20, 5%) ;
-    grid-template-columns: repeat(8, 12.5%)  ;
+    grid-template-rows: repeat(20, 5%);
+    grid-template-columns: repeat(8, 12.5%);
 }
 nav {
-    border: red 2px solid;
-    grid-area: 1/7/3/9;
-    position: relative;
+    right:0px;
+    position: fixed;
 }
 header {
     border: red 2px solid;
