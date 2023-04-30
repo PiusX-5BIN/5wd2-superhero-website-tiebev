@@ -1,15 +1,17 @@
 body {
     color:white;
     background-image: url(images/stars.webp);
-    font-family: "Courier New";
+    font-family: helvetica;
 }
 nav {
     font-size: 3vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    border: grey 5px solid;
+    border: grey 10px solid;
+    border-style: none none none solid;
     padding:1vh;
     background-color: white;
+    padding-bottom: 100vw;
 }
 
 nav>ul {
@@ -19,6 +21,10 @@ nav>ul {
 header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-image: url("images/Flash Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: black 1px 1px;
 }
 
 a:link {
