@@ -1,6 +1,8 @@
 body {
     color:white;
-    background-image: url(images/stars.webp);
+    background-image: url("images/stars.webp");
+    background-size: contain;
+    background-color: black;
     font-family: helvetica;
 }
 nav {
@@ -25,6 +27,9 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: black 1px 1px;
+    border: 1px solid red;
+    border-style: solid none solid none;
+    box-shadow: 0px 0px 5px red;
 }
 
 a:link {
@@ -34,19 +39,77 @@ a:link {
 }
 
 a:visited {
-    color: purple;
+    color: orange;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     color: grey;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
   
-  a:active {
-    color: yellow;
+a:active {
+    color: black;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
+main img {
+    border: 4px solid orange;
+    border-radius: 4px;
+    box-shadow:  0px 0px 5px orange;
+}
+
+.profile-item1 {
+    text-align: center;
+    text-shadow: red 1px 1px ;
+    font-size: 38px;
+}
+
+.profile-item2 h2 {
+    text-shadow: red 1px 1px ;
+    font-size: 38px;
+}
+
+.profile-item2  {
+    font-size: 20px
+}
+
+#profile-grid-container {
+    border: 1px solid red;
+    border-style: solid none solid none;
+    box-shadow: 0px 0px 5px red;
+    background-image: url("images/Flash Back.jpg");
+}
+
+#comments-grid-container  {
+    text-align: center;
+}
+.comments-item1 {
+    text-shadow: red 1px 1px ;
+    font-size: 38px;
+}
+
+#comics-grid-container  {
+    text-align: center;
+}
+
+.comics-item1 {
+    text-shadow: red 1px 1px ;
+    font-size: 38px;
+}
+
+.footer {
+    background-image: url("images/Flash\ Back.jpg");
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    border-style: solid none solid none;
+    box-shadow: 0px 0px 5px red;
+}
+
+
+ 
+
